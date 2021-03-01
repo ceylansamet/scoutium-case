@@ -1,0 +1,339 @@
+/*Fonts*/
+
+@font-face {
+    font-family: SofiaPro;
+    src: url(../fonts/Mostardesign-SofiaProRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: SofiaPro;
+    src: url(../fonts/Mostardesign-SofiaProLight.otf) format(otf);
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: SofiaPro;
+    src: url(../fonts/Mostardesign-SofiaProMedium.otf) format(otf);
+    font-weight: medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: SofiaPro;
+    src: url(../fonts/Mostardesign-SofiaProSemiBold.otf) format(otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: SofiaPro;
+    src: url(../fonts/Mostardesign-SofiaProBold.otf) format(otf);
+    font-weight: bolder;
+    font-style: normal;
+}
+*:not(.fa) {
+    font-family: SofiaPro;
+}
+
+/*Hader*/
+
+.header{
+    background-color: #02063f !important;
+}
+
+.logo {
+    width: 132px;
+    height: 18px;
+    margin: 9px 942px 9px 0;
+    object-fit: contain;
+  }
+
+  .test{
+    width: 346px;
+    max-height: 552px;
+    overflow-y: auto;
+    margin: 0 12px 12px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color:  #ffffff;
+  }
+
+  .v-list-item__title.title{   
+      width: 83px;
+      margin: 0 0 4px;
+      font-family: SofiaPro !important;
+      font-size:16px !important;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.19;
+      letter-spacing: normal !important;
+      text-align: left;
+      color:#02063f;
+  }
+
+  .v-list-item__subtitle.title-2{
+    width: 75px;
+    height: 15px;
+    margin: 4px 8px 0 0;
+    font-family: SofiaPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(17, 50, 96, 0.7) !important;
+  }
+
+  .pick-button{
+    width: 26px;
+    height: 12px;
+    margin: 11px 0 12px 134px;
+    font-family: SofiaPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    cursor:pointer;
+  }
+
+  .add-pick{
+      color: #3852ff
+  }
+
+  .drop-pick{
+      color: #e63846
+  }
+
+  .centerTextInfo{
+    display: flex;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .textInfo{
+    width: 306px;
+    font-family: SofiaPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #586f8f;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: calc(100% - 40px);
+  }
+
+  .addSubstitution{
+    width: 115px;
+    height: 15px;
+    margin: 16px 161.2px 0 0;
+    font-family: SofiaPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    cursor:pointer;
+    color: #12c990;
+  }
+
+  .main-title{
+    width: 95px;
+    height: 20px;
+    margin: 0 211px 16px 0;
+    font-family: SofiaPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #02063f;
+  }
+
+  .substituesDialog{
+    width: 375px;
+    height: 360px;
+    margin: 216px 0 91px 2px;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 1px #707070;
+    background-color: #1d1313;
+  }
+
+  .substitues-combobox{
+    border: solid 1px #9699be;
+    background-color: #ffffff;
+    color: #02063f;
+    padding: 6px;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .v-dialog.v-dialog--active{
+    width: auto;
+  }
+
+  .v-card__title.headline{
+    height: 16px;
+    margin: 0 104px 16px 0;
+    font-family: SofiaPro !important;
+    font-size: 16px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal !important;
+    text-align: left;
+    color: #02063f;
+  }
+
+  .combobox-label{
+    height: 12px;
+    margin: 0 257px 8px 0;
+    font-family: SofiaPro;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #586f8f;
+  }
+
+  .combobox-area{
+    margin-top:14px;
+  }
+
+  .dialog-cancel{
+    color: #e63846;
+    line-height: 32px;
+    padding: 0 24px;
+    margin: 0 2px 2px 0;
+    cursor: pointer;
+  }
+
+  .dialog-confirm{
+    border-radius: 6px;
+    background-color: #3852ff;
+    margin: 0 2px 2px 0;
+    cursor: pointer;
+  }
+
+  .dialog-confirm-text{
+    color: #ffffff;
+    line-height: 32px;
+    padding: 0 24px;
+  }
+
+  .dialog-title{
+    width: 105px;
+    height: 16px;
+    margin: 0 104px 16px 0;
+    font-family: SofiaPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    width:auto;
+    color: #02063f;
+  }
+
+  .form-input{
+    border: solid 1px #9699be;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .confirm-button{
+    border-radius: 8px;
+    background-color: #3852ff;
+    color: #fff;
+    padding: 4px 56px;
+    float: right;
+    cursor: pointer;
+  }
+
+  .confirm-button[disabled="disabled"] {
+    background-color: #757575;
+    cursor: not-allowed;
+}
+
+.row {
+    margin: 0;
+}
+
+.test:last-child {
+    margin-right: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #757575;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+@media (min-width: 1904px) {
+  .container {
+      max-width: 1230px;
+  }
+}
+
+.info-area{
+  display: flex;
+  justify-content: center;
+}
+
+.info-title{
+  font-family: SofiaPro;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #02063f;
+}
+
+.v-list-item__action, .v-list-item__avatar, .v-list-item__icon{
+  display: contents;
+}
+
+.view-club-icon-area{
+  justify-content: center;
+}
+
+.view-club-icon{
+  margin:auto
+}
