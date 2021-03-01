@@ -49,6 +49,7 @@ export default {
   }
 }
 </script>
+
 <template>
   <v-col v-bind:class = "(lineUps.length==11)?'test':'test centerTextInfo'">
      <span class="main-title">Substitutes</span>
