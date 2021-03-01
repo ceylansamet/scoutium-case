@@ -22,6 +22,7 @@ export default {
   }
 }
 </script>
+
 <template>
   <v-col class="test">
     <span class="main-title">All Players</span>
